@@ -1,0 +1,17 @@
+<script>
+var btssong=document.getElementById("btssong");
+var icon=document.getElementById("icon");
+icon.onclick=function(){
+if(btssong.paused)
+{
+btssong.play()
+icon.src="btspause.png"
+}
+else
+{
+btssong.pause()
+icon.src="btsplay.png"
+}
+}
+
+</script>
