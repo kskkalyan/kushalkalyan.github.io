@@ -1,0 +1,67 @@
+.cover{
+height:100vh;
+width:100%;
+background-image:url(bts2.jpg);
+background-size:cover;
+background-position:center;
+position:relative;
+}
+.navbar{
+width:88%;
+margin:auto;
+padding:16px 0;
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+
+}
+.logo{
+width:150px;
+cursor:pointer;
+}
+.navbar ul li{
+list-style:none;
+padding:15px;
+display:inline-block;
+}
+.navbar ul li a{
+ text-decoration: none;
+color:black;
+font-size:30px;
+}
+.man{
+width:100%;
+position:absolute;
+top:10%;
+line-height: 110%;
+display:block;
+}
+.left{
+margin-left:40%;
+}
+.left h1{
+color:#060608;
+font-size:120px;
+}
+.left img{
+height:340px;
+width:275px;
+margin-left:5%;
+}
+.playlogo{
+margin-left:9%;
+}
+#icon{
+width:75px;
+height:75px;
+cursor=pointer;
+}
+.playlogo h3{
+color:white;
+font-style:oblique;
+}
+#ender{
+margin-left:5px;
+color:#dbd8e3;
+}
